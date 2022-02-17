@@ -1,0 +1,192 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html{
+  font-size: 16px;
+}
+
+header nav ul li{
+  width: 10%;
+  float: left;
+  list-style: none;
+}
+
+header nav ul {
+  background: white;
+}
+
+header{
+  background: white;
+  margin-bottom: 3%;
+}
+
+main{
+  background-image: url(Brunette.png);
+  background-repeat: repeat;
+  background-position: right;
+  background-size: 600px 800px;
+  height: 500px;
+}
+
+main h1{
+  font-family: 'Roboto Serif', sans-serif;
+  float: left;
+  width: 30%;
+  color: white;
+  margin-left: 15%;
+  font-size: 3.5em;
+}
+
+main span{
+  float: left;
+  width: 100%;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+
+.coupon{
+  float: left;
+  width: 20%;
+  height: 40%;
+  background: black;
+  margin-top: 10%;
+  margin-left: -20%;
+}
+
+main span + button{
+  float: left;
+  width: 20%;
+  background: black;
+  color: white;
+  height: 8%;
+  font-family: 'Roboto Mono', monospace;
+  margin-left: 15%;
+  border: 1px solid black;
+}
+
+section span + span{
+  font-weight: 700;
+  font-size: 1.5em;
+  width: 10%;
+  margin-left: 5%;
+}
+
+section button {
+  float: left;
+  margin-left: 13%;
+  font-family: 'Roboto Mono', monospace;
+  background: white;
+}
+
+section h4{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  width: 80%;
+  font-size: .8em;
+  margin-right: -10%;
+  padding-right: -10%;
+}
+
+.services{
+  float: left;
+  width: 33.333%;
+  margin-top: 20%;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+body section img{
+  width: 30%;
+}
+
+.motivation{
+  float: left;
+  width: 100%;
+  height: 500px;
+  background: #e1e7f0;
+}
+
+.motivation h3 {
+  font-family: 'Roboto Serif', sans-serif;
+  margin-top: 10%;
+  margin-left: 5%;
+  font-size: 2em;
+  width: 30%;
+}
+
+.motivation p{
+  font-family: 'Roboto Mono', monospace;
+  width: 50%;
+  margin-left: 5%;
+}
+
+.motivation button{
+  background: black;
+  color: white;
+  width: 20%;
+  height: 10%;
+  margin-left: 5%;
+
+}
+
+.motivation img{
+  float: right;
+  margin-top: -20%;
+  margin-right: 10%;
+}
+
+body section + img{
+  margin-top: 10%;
+  background-color: #e1e7f0;
+}
+
+.stylists{
+  float: left;
+  width: 33.333%;
+}
+
+.stylist div{
+  background: black;
+  width: 15%;
+  border: 1px solid black;
+}
+
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
